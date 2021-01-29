@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+body {
+    background-color: #17191c;
+    color: white;
+    font-size: 16px;
+    line-height: 1.42;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+    background: url(img/hero.png) no-repeat;
+}
+
+a {
+    color: inherit;
+    font-style: normal;
+    text-decoration: none    
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.button_style_common, .button_style_offer {
+    display: inline-block;
+    width: 195px;
+    height: 55px;
+    background-color: #FF3D00;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 28px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.button_style_offer {
+    width: 198px;
+}
+
+.header, .footer {
+    position: relative;
+    margin: 20px auto;
+    width: 1142px;
+    height: 149px;
+}
+
+.header .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 198px;
+    height: 46px;
+}
+
+.header .menu {
+    position: absolute;
+    margin: 0px auto;
+    top: 22px;
+    left: 490px;
+    width: 264px;
+    height: 19px;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu__link {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header .contacts {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 191px;
+    height: 35px;
+}
+
+.contacts__phone {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.contacts__info {
+    position: absolute;
+    top: 28px;
+    right: 0;
+}
+
+.contacts__link {
+    font-size: 13px;
+    font-weight: 400;
+    color: #FF3D00; 
+}
+
+.content {
+    margin: 20px auto;
+    width: 1142px;
+    text-align: center;  
+}
+
+.greeting {
+    margin: 0 auto;
+    width: 776px;
+}
+
+.greeting__title {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.greeting__text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.greeting__button {
+    margin: 20px;
+}
+
+.offer__item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.offers {
+    margin-top: 200px;
+}
+
+.card-offer {
+    margin: 0 10px;
+    padding: 20px;
+    width: 300px;
+    height: 436px;
+    text-align: left;
+    background-color: white;
+}
+
+.card-offer__icon {
+    width: 84px;
+    height: 80px;
+}
+
+.card-offer__content {
+    color: #666666;
+}
+
+.card-offer__title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.card-offer__feature-countpeople, 
+.card-offer__feature-longtime {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card-offer__text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.news {
+    padding: 20px;
+}
+
+.news__title {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 800px;
+}
+
+.news__list {
+    margin: 0 auto;
+}
+
+.news__item {
+    display: inline-block;
+}
+
+.card-news {
+    width: 497px;
+    height: 354px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.card-news__picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-news__desc {
+    position: relative;
+    top: -180px;
+    padding: 20px;
+}
+
+.card-news__date {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-news__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-news__text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pagination {
+ 
+}
+
+.pagination__info, .pagination__list {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pagination__info {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.pagination__item  {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.pagination__link {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.promo {
+    position: relative;
+}
+
+.promo__photo {
+    position: relative;
+    top: 0;
+    left: -200px;
+}
+
+.promo__desc {
+    position: relative;
+    top: -200px;
+    left: 500px;
+    width: 635px;
+    height: 355px;
+    padding: 50px;
+    padding-right: 80px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.footer .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 198px;
+    height: 46px;
+}
+
+.footer .menu {
+    position: absolute;
+    margin: 0px auto;
+    top: 22px;
+    left: 290px;
+    width: 264px;
+    height: 19px;
+}
+
+.footer .contacts {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 191px;
+    height: 35px;
+}
+
+.footer .contacts__phone {
+    top: 20px;
+}
+
+.contacts__text {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.socials {
+    position: relative;
+    top: 20px;
+    left: 600px;    
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    width: 36px;
+    height: 36px;
+}
+
+.telegram {
+    background-image: url(./img/telegram.png);
+}
+
+.vk {
+    background-image: url(./img/vk.png);
+}
+
+.facebook {
+    background-image: url(./img/f.png);
+}
+
+.instagram {
+    background-image: url(./img/in.png);
+}
+
