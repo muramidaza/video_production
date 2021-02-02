@@ -27,9 +27,9 @@ body {
 }
 
 .container {
+    position: relative;
     margin: 0 auto;
     width: 1150px;
-    position: relative;
 }
 
 h1, h2, h3 {
@@ -98,8 +98,8 @@ ul li:last-child {
 }
 
 .header {
-    position: relative;
-    top: 20px;
+    margin-top: 20px;
+    height: 70px;
 }
 
 .logo {
@@ -193,35 +193,32 @@ ul li:last-child {
 }
 
 .content {
-    position: relative;
-    top: 227px;    
+    margin-top: 137px;    
 }
 
 .greeting {
-    position: relative;
     text-align: center;
+    margin-left: 15px;
 }
 
 .greeting__title {
     font-size: 72px;
     font-weight: 800;
     text-transform: uppercase;
+
 }
 
 .greeting__text {
-    position: relative;
-    top: 10px;
+    margin-top: 10px;
     font-size: 18px;
 }
 
 .greeting__button {
-    position: relative;
-    top: 50px;
+    margin-top: 40px;
 }
 
 .offers {
-    position: relative;
-    top: 280px;
+    margin-top: 230px;
 }
 
 .offers__item {
@@ -230,7 +227,6 @@ ul li:last-child {
 }
 
 .card-offer {
-    position: relative;
     margin: 0 9px;
     padding: 40px 25px;
     width: 315px;
@@ -241,27 +237,22 @@ ul li:last-child {
 }
 
 .card-offer__icon {
-    position: relative;
-    top: 0;
-    left: 5px;
+    margin-left: 5px;
 }
 
 .card-offer__content {
-    position: relative;
     color: #666666;
-    top: -5px;
+    margin-top: -10px;
 }
 
 .card-offer__title {
-    position: relative;
     font-size: 32px;
     font-weight: 700;
-    top: 30px;
+    margin-top: 30px;
 }
 
 .card-offer__features {
-    position: relative;
-    top: 40px;
+    margin-top: 15px;
 }
 
 .card-offer__features-countpeople, 
@@ -278,24 +269,20 @@ ul li:last-child {
 }
 
 .card-offer__text {
-    position: relative;
-    top: 65px;
+    margin-top: 25px;
     font-size: 14px;
 }
 
 .card-offer__button {
-    position: absolute;
-    bottom: -155px;
+    margin-top: 35px;
 }
 
 .news {
-    position: relative;
-    top: 455px;
+    margin-top: 175px;
 }
 
 .news__title {
-    position: relative;
-    left: 10px;
+    margin-left: 10px;
     text-align: left;
     font-size: 36px;
     font-weight: 800;
@@ -303,8 +290,7 @@ ul li:last-child {
 }
 
 .news__list {
-    position: relative;
-    top: 40px;
+    margin-top: 40px;
     padding: 10px 0px 0px 10px;
 }
 
@@ -313,7 +299,6 @@ ul li:last-child {
 }
 
 .card-news {
-    position: relative;
     width: 557px;
     margin-right: 20px;
     text-align: left;
@@ -326,9 +311,9 @@ ul li:last-child {
 }
 
 .card-news__desc {
-    position: relative;
-    top: -147px;
-    left: 32px;
+    margin-top: -147px;
+    margin-left: 32px;
+    width: 450px;
 }
 
 .card-news__date {
@@ -336,22 +321,19 @@ ul li:last-child {
 }
 
 .card-news__title {
-    position: relative;
-    top: 15px;
+    margin-top: 12px;
     font-size: 24px;
     font-weight: 700;
 }
 
 .card-news__text {
-    position: relative;
-    top: 20px;
+    margin-top: 5px;
 }
 
 .pagination {
-    position: relative;
     text-align: center;
-    top: -20px;
-    left: 10px;
+    margin-top: 70px;
+    margin-left: 15px;
 }
 
 .pagination__info, .pagination__list {
@@ -385,22 +367,20 @@ ul li:last-child {
 }
 
 .promo {
-    position: relative;
-    top: 575px;
+    margin-top: 140px;
+    padding: 10px;
 }
 
 .promo__photo {
-    position: relative;
-    top: 0;
-    left: 10px;
 }
 
 .promo__desc {
     position: relative;
-    top: -413px;
-    left: 367px;
+    margin-top: -425px;
+    margin-left: 355px;
     width: 625px;
     min-height: 335px;
+    z-index: 1;
     padding: 60px 80px;
     padding-right: 80px;
     border-radius: 5px;
@@ -409,29 +389,26 @@ ul li:last-child {
 }
 
 .promo__title {
-    position: relative;
-    top: 10px;
+    margin-top: 10px;
     font-size: 36px;
     font-weight: 800;
     text-transform: uppercase;
 }
 
 .promo__text {
-    position: relative;
     width: 500px;
-    top: 48px;
+    margin-top: 38px;
     line-height: 1.69;
 }
 
 .promo__button {
-    position: absolute;
-    bottom: 65px;
+    margin-top: 40px;
 }
 
 .footer {
     border-top: 2px solid rgba(255, 255, 255, 0.1);
-    position: relative;
-    top: 480px;
+    margin-top: 83px;
+    height: 70px;
 }
 
 .footer .logo {
