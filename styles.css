@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #17191c;
     color: white;
-    background-image: url(img/hero.png);
-    background-repeat: no-repeat;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.42;
@@ -14,8 +17,18 @@ body {
 }
 
 .wrapper {
+    min-width: 1150px; 
+    padding: 0;
+    background-image: url(img/hero.png), url(img/bottom-pic.png);
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    background-size: contain, contain;
+}
+
+.container {
     margin: 0 auto;
     width: 1150px;
+    position: relative;
 }
 
 h1, h2, h3 {
@@ -29,21 +42,18 @@ a {
     text-decoration: none    
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
-
 ul li {
     list-style: none;
 }
 
-.button_style_common, .button_style_offer, .button_style_promo {
+ul li:last-child {
+    margin-right: 0;
+}
+
+.button {
     display: inline-block;
-    width: 195px;
     height: 55px;
-    background-color: #FF3D00;
-    color: white;
+    background-color: white;
     text-align: center;
     line-height: 55px;
     border-radius: 28px;
@@ -53,39 +63,54 @@ ul li {
     cursor: pointer;
 }
 
-.button_style_common:hover, .button_style_offer:hover, .button_style_promo:hover {
-    width: 168px;
-    background-color:#DA0100;
+.greeting__button {
+    border: 1px solid #FF3D00;
+    color: #FF3D00;
+    width: 195px;       
 }
 
-.button_style_offer {
-    width: 198px;
+.greeting:hover > .greeting__button {
+    background-color: #FF3D00;
+    color: white;
 }
 
-.button_style_promo {
+.card-offer__button {
+    border: 1px solid  #FF5500;
+    color: #FF5500;  
+    width: 198px;         
+}
+
+.card-offer__button:hover {
+    background-color: #FF5500;
+    color: white;    
+}
+
+.promo__button {
+    border: 1px solid #FF5400;
+    color: #FF5400;
     width: 168px;
+}
+
+.promo__button:hover {
+    background-color: #FF5400;
+    color: white;     
 }
 
 .header {
     position: relative;
     top: 20px;
-    height: 150px;
 }
 
-.header .logo {
+.logo {
     position: absolute;
     top: 0;
     left: 0;
-    width: 198px;
-    height: 46px;
 }
 
 .header .menu {
     position: absolute;
-    top: 5px;
-    left: 440px;
-    width: 320px;
-    height: 19px;
+    top: 17px;
+    left: 427px;
 }
 
 .menu__item {
@@ -98,24 +123,28 @@ ul li {
     font-size: 14px;
 }
 
-.header .contacts {
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+.contacts {
     position: absolute;
+    text-align: right;
     top: 0;
     right: 0;
     width: 191px;
-    height: 35px;
 }
 
 .contacts__phone {
     position: absolute;
-    top: 0;
+    top: 7px;
     right: 0;
     font-size: 26px;
 }
 
 .contacts__info {
     position: absolute;
-    top: 30px;
+    top: 34px;
     right: 0;
 }
 
@@ -127,6 +156,11 @@ ul li {
     font-size: 13px;
     color: #FF3D00; 
     cursor: pointer;
+    text-decoration: none;
+}
+
+.contacts__link:hover {
+    text-decoration: underline;
 }
 
 .contacts__hover {
@@ -135,13 +169,14 @@ ul li {
     top: 55px;
     right: -10px;    
     width: 125px;
-    height: 65px;
+    height: 45px;
     background-color: #FFFFFF;
     opacity: 0.8;
     color: black;
     font-style: normal;
     line-height: 1;
-    padding: 0 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .contacts__timetable {
@@ -150,43 +185,42 @@ ul li {
 }
 
 .contacts__dinner {
+    position: relative;
+    top: 10px;
     font-size: 13px;
     font-weight: 600;
 }
 
 .content {
     position: relative;
-    top: 70px; 
+    top: 227px;    
 }
 
 .greeting {
     position: relative;
     text-align: center;
-    margin: 0 auto;
-    width: 900px;
 }
 
 .greeting__title {
-    font-size: 80px;
+    font-size: 72px;
     font-weight: 800;
-    line-height: 1.2;
+    text-transform: uppercase;
 }
 
 .greeting__text {
     position: relative;
-    top: 20px;
+    top: 10px;
     font-size: 18px;
 }
 
 .greeting__button {
     position: relative;
-    top: 60px;
+    top: 50px;
 }
 
 .offers {
     position: relative;
-    top: 290px;
-    text-align: center;
+    top: 280px;
 }
 
 .offers__item {
@@ -196,25 +230,25 @@ ul li {
 
 .card-offer {
     position: relative;
-    margin: 0 10px;
-    padding: 40px;
-    width: 280px;
-    height: 400px;
+    margin: 0 9px;
+    padding: 40px 25px;
+    width: 315px;
+    min-height: 400px;
     text-align: left;
     background-color: white;
+    border-radius: 5px;
 }
 
 .card-offer__icon {
     position: relative;
-    width: 84px;
-    height: 80px;
+    top: 0;
+    left: 5px;
 }
 
 .card-offer__content {
-    position: absolute;
+    position: relative;
     color: #666666;
-    height: 340px;
-    width: 270px;
+    top: -5px;
 }
 
 .card-offer__title {
@@ -233,46 +267,44 @@ ul li {
 .card-offer__features-longtime {
     display: inline-block;
     vertical-align: top;
-    margin-left: 5px;
-    width: 125px;
-    font-size: 16px;
+    margin-right: 60px;
+    width: 120px;
     font-weight: 300;
 }
 
-.card-offer__features-countpeople b, 
-.card-offer__features-longtime b {
+.card-offer__features-bold {
     font-weight: 700;
 }
 
 .card-offer__text {
     position: relative;
-    top: 50px;
+    top: 65px;
     font-size: 14px;
 }
 
 .card-offer__button {
     position: absolute;
-    bottom: 40px;
+    bottom: -155px;
 }
 
 .news {
     position: relative;
-    top: 440px;
-    padding: 20px;
-}
-
-.news__list {
-    position: relative;
-    top: 20px;
-    height: 500px;
+    top: 455px;
 }
 
 .news__title {
     position: relative;
-    left: 20px;
+    left: 10px;
     text-align: left;
-    font-size: 42px;
+    font-size: 36px;
     font-weight: 800;
+    text-transform: uppercase;
+}
+
+.news__list {
+    position: relative;
+    top: 40px;
+    padding: 10px 0px 0px 10px;
 }
 
 .news__item {
@@ -281,10 +313,8 @@ ul li {
 
 .card-news {
     position: relative;
-    width: 500px;
-    height: 390px;
-    margin: 15px;
-    padding: 10px;
+    width: 557px;
+    margin-right: 20px;
     text-align: left;
 }
 
@@ -296,8 +326,8 @@ ul li {
 
 .card-news__desc {
     position: relative;
-    top: -150px;
-    padding: 20px;
+    top: -147px;
+    left: 32px;
 }
 
 .card-news__date {
@@ -305,18 +335,22 @@ ul li {
 }
 
 .card-news__title {
+    position: relative;
+    top: 15px;
     font-size: 24px;
     font-weight: 700;
 }
 
 .card-news__text {
-    font-size: 14px;
+    position: relative;
+    top: 20px;
 }
 
 .pagination {
     position: relative;
     text-align: center;
-    left: 20px;
+    top: -20px;
+    left: 10px;
 }
 
 .pagination__info, .pagination__list {
@@ -327,6 +361,7 @@ ul li {
 .pagination__info {
     font-size: 16px;
     padding: 10px;
+    margin-right: 5px;
 }
 
 .pagination__item  {
@@ -350,22 +385,22 @@ ul li {
 
 .promo {
     position: relative;
-    top: 550px;
+    top: 575px;
 }
 
 .promo__photo {
     position: relative;
     top: 0;
-    left: 0;
+    left: 10px;
 }
 
 .promo__desc {
     position: relative;
-    top: -400px;
-    left: 380px;
-    width: 595px;
-    height: 315px;
-    padding: 70px;
+    top: -413px;
+    left: 367px;
+    width: 625px;
+    min-height: 335px;
+    padding: 60px 80px;
     padding-right: 80px;
     border-radius: 5px;
     background-color: white;
@@ -373,6 +408,8 @@ ul li {
 }
 
 .promo__title {
+    position: relative;
+    top: 10px;
     font-size: 36px;
     font-weight: 800;
     text-transform: uppercase;
@@ -380,42 +417,38 @@ ul li {
 
 .promo__text {
     position: relative;
-    top: 20px;
-    line-height: 2;
+    width: 500px;
+    top: 48px;
+    line-height: 1.69;
 }
 
 .promo__button {
-    position: relative;
-    bottom: -40px;
+    position: absolute;
+    bottom: 65px;
 }
 
 .footer {
     border-top: 2px solid rgba(255, 255, 255, 0.1);
     position: relative;
-    top: 270px;
+    top: 480px;
 }
 
 .footer .logo {
     position: absolute;
-    top: 30px;
+    top: 0;
     left: 0;
-    width: 198px;
-    height: 46px;
 }
 
 .footer .menu {
     position: absolute;
-    margin: 0 auto;
-    top: 50px;
-    left: 320px;
-    width: 320px;
-    height: 19px;
+    top: 20px;
+    left: 315px;
 }
 
 .socials {
     position: relative;
-    top: 30px;
-    left: 720px;    
+    top: 10px;
+    left: 715px;    
 }
 
 .socials__item {
@@ -423,7 +456,7 @@ ul li {
     vertical-align: middle;
     width: 36px;
     height: 36px;
-    margin: 5px;
+    margin-right: 6px;
 }
 
 .telegram {
@@ -442,20 +475,14 @@ ul li {
     background-image: url(./img/in.png);
 }
 
-.footer .contacts {
-    position: absolute;
-    top: 30px;
-    right: 0;
-    width: 191px;
-    height: 35px;
-    text-align: right;
-}
-
 .footer .contacts__phone {
-    top: 20px;
+    position: relative;
+    top: 10px;
 }
 
 .contacts__text {
+    position: relative;
+    top: 10px;
     font-size: 11px;
     font-style: normal;
 }
