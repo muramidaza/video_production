@@ -100,6 +100,7 @@ ul li:last-child {
 .header {
     margin-top: 20px;
     height: 70px;
+    margin-bottom: 137px;
 }
 
 .logo {
@@ -134,19 +135,16 @@ ul li:last-child {
     top: 0;
     right: 0;
     width: 191px;
+    padding-top: 7px;
 }
 
 .contacts__phone {
-    position: absolute;
-    top: 7px;
-    right: 0;
     font-size: 26px;
+    
 }
 
 .contacts__info {
-    position: absolute;
-    top: 34px;
-    right: 0;
+    margin-top: -10px;
 }
 
 .contacts__info:hover + .contacts__hover{
@@ -183,42 +181,42 @@ ul li:last-child {
 .contacts__timetable {
     font-size: 13px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .contacts__dinner {
-    position: relative;
-    top: 10px;
     font-size: 13px;
     font-weight: 600;
 }
 
-.content {
-    margin-top: 137px;    
+.content { 
+    margin-bottom: 50px;   
 }
 
 .greeting {
     text-align: center;
     margin-left: 15px;
+    margin-bottom: 230px;
 }
 
 .greeting__title {
     font-size: 72px;
     font-weight: 800;
     text-transform: uppercase;
+    margin-bottom: 10px;
 
 }
 
 .greeting__text {
-    margin-top: 10px;
     font-size: 18px;
+    margin-bottom: 40px;
 }
 
 .greeting__button {
-    margin-top: 40px;
 }
 
 .offers {
-    margin-top: 230px;
+    margin-bottom: 175px;
 }
 
 .offers__item {
@@ -249,10 +247,11 @@ ul li:last-child {
     font-size: 32px;
     font-weight: 700;
     margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .card-offer__features {
-    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .card-offer__features-countpeople, 
@@ -269,16 +268,15 @@ ul li:last-child {
 }
 
 .card-offer__text {
-    margin-top: 25px;
+    margin-bottom: 35px;
     font-size: 14px;
 }
 
 .card-offer__button {
-    margin-top: 35px;
 }
 
 .news {
-    margin-top: 175px;
+    margin-bottom: 140px;
 }
 
 .news__title {
@@ -287,11 +285,12 @@ ul li:last-child {
     font-size: 36px;
     font-weight: 800;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 .news__list {
-    margin-top: 40px;
     padding: 10px 0px 0px 10px;
+    margin-bottom: 70px;
 }
 
 .news__item {
@@ -317,22 +316,22 @@ ul li:last-child {
 }
 
 .card-news__date {
+    display: block;
     font-size: 14px;
+    margin-bottom: 15px;
 }
 
 .card-news__title {
-    margin-top: 12px;
     font-size: 24px;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .card-news__text {
-    margin-top: 5px;
 }
 
 .pagination {
     text-align: center;
-    margin-top: 70px;
     margin-left: 15px;
 }
 
@@ -344,7 +343,7 @@ ul li:last-child {
 .pagination__info {
     font-size: 16px;
     padding: 10px;
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 .pagination__item  {
@@ -353,6 +352,7 @@ ul li:last-child {
     width: 32px;
     height: 32px;
     border-radius: 16px;
+    margin-right: -2px;
 }
 
 .pagination__item:hover {
@@ -367,8 +367,7 @@ ul li:last-child {
 }
 
 .promo {
-    margin-top: 140px;
-    padding: 10px;
+    padding: 0px 10px;
 }
 
 .promo__photo {
@@ -376,12 +375,12 @@ ul li:last-child {
 
 .promo__desc {
     position: relative;
-    margin-top: -425px;
+    margin-top: -415px;
     margin-left: 355px;
     width: 625px;
-    min-height: 335px;
+    min-height: 315px;
     z-index: 1;
-    padding: 60px 80px;
+    padding: 70px 80px;
     padding-right: 80px;
     border-radius: 5px;
     background-color: white;
@@ -389,26 +388,25 @@ ul li:last-child {
 }
 
 .promo__title {
-    margin-top: 10px;
     font-size: 36px;
     font-weight: 800;
     text-transform: uppercase;
+    margin-bottom: 38px;
 }
 
 .promo__text {
     width: 500px;
-    margin-top: 38px;
     line-height: 1.69;
+    margin-bottom: 40px;
 }
 
 .promo__button {
-    margin-top: 40px;
 }
 
 .footer {
     border-top: 2px solid rgba(255, 255, 255, 0.1);
-    margin-top: 83px;
     height: 70px;
+    padding-top: 36px;
 }
 
 .footer .logo {
@@ -454,13 +452,10 @@ ul li:last-child {
 }
 
 .footer .contacts__phone {
-    position: relative;
-    top: 10px;
+
 }
 
 .contacts__text {
-    position: relative;
-    top: 10px;
     font-size: 11px;
     font-style: normal;
 }
