@@ -13,8 +13,7 @@ body {
     line-height: 1.42;
     font-family: "Open Sans", Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    overflow-x: auto;    
+    -moz-osx-font-smoothing: grayscale;    
 }
 
 .wrapper {
@@ -24,7 +23,7 @@ body {
     background-repeat: no-repeat;
     background-position: top, bottom;
     background-size: contain, contain;
-
+    overflow-x: auto;
 }
 
 .container {
