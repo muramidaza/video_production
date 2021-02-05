@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -53,9 +54,8 @@ ul li:last-child {
 
 .button {
     display: inline-block;
-    background-color: white;
     text-align: center;
-    line-height: 55px;
+    line-height: 53px;
     border-radius: 28px;
     font-size: 14px;
     font-weight: 700;
@@ -64,20 +64,21 @@ ul li:last-child {
 }
 
 .greeting__button {
-    border: 1px solid #FF3D00;
-    color: #FF3D00;
+    background-color: #FF3D00;
+    color: white;
     padding: 0 55px;
 }
 
 .greeting__button:hover {
-    background-color: #FF3D00;
+    background-color:#DA0100;
     color: white;
 }
 
 .card-offer__button {
     border: 1px solid  #FF5500;
+    background-color: white;
     color: #FF5500;
-    padding: 0 53px;        
+    padding: 0 55px;        
 }
 
 .card-offer__button:hover {
@@ -86,20 +87,20 @@ ul li:last-child {
 }
 
 .promo__button {
-    border: 1px solid #FF5400;
-    color: #FF5400;
+    background-color: #FF5400;
+    color: white;
     padding: 0 39px;
 }
 
 .promo__button:hover {
-    background-color: #FF5400;
+    background-color: #FF3D00;
     color: white;     
 }
 
 .header {
     margin-top: 20px;
     height: 70px;
-    margin-bottom: 137px;
+    margin-bottom: 135px;
 }
 
 .logo {
@@ -124,8 +125,8 @@ ul li:last-child {
     font-size: 14px;
 }
 
-.menu__link:hover {
-    text-decoration: underline;
+.menu__link:hover, .menu__item--active {
+    color: #FF3D00;
 }
 
 .contacts {
@@ -137,7 +138,6 @@ ul li:last-child {
 
 .contacts__phone {
     font-size: 26px;
-    
 }
 
 .contacts__info {
@@ -152,7 +152,7 @@ ul li:last-child {
     font-size: 13px;
     color: #FF3D00; 
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .contacts__link:hover {
@@ -162,23 +162,22 @@ ul li:last-child {
 .contacts__hover {
     display: none;
     position: absolute;
-    top: 55px;
-    right: -10px;    
-    width: 125px;
-    height: 45px;
+    top: 53px;
+    right: 5px;    
     background-color: #FFFFFF;
     opacity: 0.8;
     color: black;
     font-style: normal;
     line-height: 1;
-    padding: 10px 20px;
+    padding: 15px 17px;
     border-radius: 5px;
+    text-align: left;
 }
 
 .contacts__timetable {
     font-size: 13px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .contacts__dinner {
@@ -192,7 +191,7 @@ ul li:last-child {
 
 .greeting {
     text-align: center;
-    margin-bottom: 230px;
+    margin-bottom: 235px;
 }
 
 .greeting__title {
@@ -222,8 +221,8 @@ ul li:last-child {
 
 .card-offer {
     padding: 40px 20px;
-    width: 320px;
-    min-height: 395px;
+    width: 360px;
+    min-height: 476px;
     text-align: left;
     background-color: white;
     border-radius: 5px;
@@ -235,21 +234,21 @@ ul li:last-child {
 
 .card-offer__icon {
     margin-left: 5px;
+    margin-bottom: 20px;
 }
 
 .card-offer__content {
     color: #666666;
-    padding-top: 20px;
 }
 
 .card-offer__title {
     font-size: 32px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }
 
 .card-offer__features {
-    margin-bottom: 25px;
+    margin-bottom: 23px;
 }
 
 .card-offer__features-countpeople, 
@@ -283,21 +282,20 @@ ul li:last-child {
     font-size: 36px;
     font-weight: 800;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .news__list {
-    padding: 10px 0px;
-    margin-bottom: 60px;
+    margin-bottom: 42px;
 }
 
 .news__item {
     display: inline-block;
+    margin-right: 18px;
 }
 
 .card-news {
-    width: 556px;
-    margin-right: 18px;
+    position: relative;
     text-align: left;
 }
 
@@ -305,15 +303,17 @@ ul li:last-child {
 }
 
 .card-news__desc {
-    margin-top: -147px;
-    margin-left: 30px;
-    width: 450px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 253px 80px 0px 29px;
+    min-height: 120px;
 }
 
 .card-news__date {
     display: block;
     font-size: 14px;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 }
 
 .card-news__title {
@@ -343,22 +343,21 @@ ul li:last-child {
 .pagination__item {
     display: inline-block;
     vertical-align: middle; 
-    border-radius: 16px;
     margin-right: -2px; 
-    width: 32px;
-    height: 32px;    
-}
-
-
-.pagination__item:hover, .pagination__item.active {
-    background-color: #FF5500;
 }
 
 .pagination__link {
-    line-height: 32px;
-    text-align: center;    
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    line-height: 32px;   
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 700;          
+}
+
+.pagination__link:hover, .pagination__link--active {
+    background-color: #FF5500;
 }
 
 .promo {
@@ -370,13 +369,9 @@ ul li:last-child {
 
 .promo__desc {
     position: absolute;
-    top: 95px;
+    top: 97px;
     left: 354px;
-    width: 625px;
-    min-height: 315px;
-    z-index: 1;
-    padding: 70px 80px;
-    padding-right: 80px;
+    padding: 72px 203px 64px 80px;
     border-radius: 5px;
     background-color: white;
     color: black;
@@ -386,71 +381,87 @@ ul li:last-child {
     font-size: 36px;
     font-weight: 800;
     text-transform: uppercase;
-    margin-bottom: 38px;
+    margin-bottom: 35px;
 }
 
 .promo__text {
     width: 500px;
     line-height: 1.69;
-    margin-bottom: 40px;
+    margin-bottom: 43px;
 }
 
 .promo__button {
 }
 
-.footer {
-    border-top: 2px solid rgba(255, 255, 255, 0.1);
-    height: 70px;
-    padding-top: 36px;
+.footer-container {
+    height: 148px; 
 }
 
-.footer .logo {
-    position: absolute;
-    top: 0;
-    left: 0;
+.footer-container__content {
+    border-top: 4px solid rgba(255, 255, 255, 0.1);
+    padding-top: 35px;
+}
+
+.footer {
+    position: relative;
 }
 
 .footer .menu {
     position: absolute;
-    top: 15px;
+    top: 17px;
     left: 327px;
 }
 
 .socials {
     position: absolute;
-    top: 15px;
-    left: 710px;    
+    top: 10px;
+    left: 700px;    
 }
 
 .socials__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 6px;
+    margin-right: 6px;    
 }
 
-.social__icons {
+.socials__link {
+    display: block;
     width: 36px;
-    height: 36px;    
+    height: 36px;
+    border-radius: 50%;
+    background: center center no-repeat;   
 }
 
-.telegram {
+.socials__link--telegram {
     background-image: url(./img/telegram.png);
 }
 
-.vk {
+.socials__link--telegram:hover {
+    background-image: url(./img/telegram-hover.png);
+}
+
+.socials__link--vk {
     background-image: url(./img/vk.png);
 }
 
-.facebook {
+.socials__link--vk:hover {
+    background-image: url(./img/vk-hover.png);
+}
+
+.socials__link--facebook {
     background-image: url(./img/f.png);
 }
 
-.instagram {
+.socials__link--facebook:hover {
+    background-image: url(./img/f-hover.png);
+}
+
+.socials__link--instagram {
     background-image: url(./img/in.png);
 }
 
-.footer .contacts__phone {
-
+.socials__link--instagram:hover {
+    background-image: url(./img/in-hover.png);
 }
 
 .contacts__text {
