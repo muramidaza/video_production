@@ -689,6 +689,7 @@ ul li:last-child {
 
 .partners__img-container:nth-child(2) {
     justify-content: center;
+    padding-right: 3%;
 }
 
 .partners__img-container:nth-child(3) {
@@ -697,6 +698,11 @@ ul li:last-child {
 
 .partners__img-container:nth-child(4) {
     justify-content: flex-end;
+    padding-right: 1%;
+}
+
+.partners__img-container:nth-child(6) {
+    padding-left: 1%;
 }
 
 .partners__img-container:nth-child(7) {
@@ -705,8 +711,4 @@ ul li:last-child {
 
 .partners__img-container:nth-child(8) {
     justify-content: flex-end;
-}
-
-.footer__services {
-
 }
