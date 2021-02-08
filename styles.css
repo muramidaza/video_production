@@ -541,7 +541,6 @@ ul li:last-child {
     background-image: url(./img/top-line.png);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain;
     overflow-x: auto;
     background-color: black;
     display: flex;
