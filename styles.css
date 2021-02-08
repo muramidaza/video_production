@@ -103,7 +103,7 @@ ul li:last-child {
 /* main page */
 
 .hero {
-    padding-top: 25px;
+    padding-top: 18px;
     margin-bottom: 235px;
 }
 
@@ -111,7 +111,7 @@ ul li:last-child {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 535px;
+    min-height: 540px;
 }
 
 .header {
@@ -163,11 +163,14 @@ ul li:last-child {
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-end;
+    padding-top: 11px;
 }
 
 .contacts__phone {
     font-size: 26px;
+    line-height: 1.2;
 }
 
 .contacts__info {
@@ -293,7 +296,7 @@ ul li:last-child {
 .card-offer__features-longtime {
     font-weight: 300;
     flex: 1;
-    margin-right: 20%;
+    margin-right: 21%;
 }
 
 .card-offer__features-bold {
@@ -401,7 +404,7 @@ ul li:last-child {
 .promo {
     display: flex;
     align-items: flex-end;
-    min-height: 600px;
+    min-height: 605px;
 }
 
 .promo__desc {
@@ -409,7 +412,7 @@ ul li:last-child {
     border-radius: 5px;
     background-color: white;
     color: black;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
     margin-left: -137px;
 }
 
@@ -445,7 +448,7 @@ ul li:last-child {
 
 .footer-container__content {
     border-top: 4px solid rgba(255, 255, 255, 0.1);
-    padding-top: 45px;
+    padding-top: 40px;
 }
 
 .footer {
@@ -528,6 +531,7 @@ ul li:last-child {
 .contacts__text {
     font-size: 11px;
     font-style: normal;
+    line-height: 1;
 }
 
 /*Services*/
@@ -619,7 +623,7 @@ ul li:last-child {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px 0px 0px 58px;
+    padding: 10px 0px 20px 58px;
 }
 
 .services-card__title {
@@ -701,4 +705,8 @@ ul li:last-child {
 
 .partners__img-container:nth-child(8) {
     justify-content: flex-end;
+}
+
+.footer__services {
+
 }
