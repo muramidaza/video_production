@@ -1,0 +1,17 @@
+.breadcrumbs__list {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;    
+}
+
+.breadcrumbs__link::after {
+    content: "/"
+}
+
+.breadcrumbs__link--activ {
+    font-weight: 700;
+}
+
+.breadcrumbs__link--activ::after {
+    content: "";
+}

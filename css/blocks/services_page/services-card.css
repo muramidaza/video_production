@@ -1,0 +1,25 @@
+.services-card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services-card:last-child {
+    margin-bottom: 0px;
+}
+
+.services-card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px 20px 58px;
+}
+
+.services-card__title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.services-card__text {
+    line-height: 1.7;
+}

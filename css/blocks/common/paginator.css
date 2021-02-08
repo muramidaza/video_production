@@ -1,0 +1,37 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination__info {
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 7px;
+}
+
+.pagination__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination__item {
+
+}
+
+.pagination__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    line-height: 32px;   
+    font-size: 16px;
+    font-weight: 700; 
+    text-align: center;         
+}
+
+.pagination__link:hover, .pagination__link--active {
+    background-color: #FF5500;
+    color: white;
+}

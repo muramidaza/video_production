@@ -1,0 +1,12 @@
+.offers {
+    margin-bottom: 180px;
+}
+
+.offers__list {
+    display: flex;
+    justify-content: space-between;
+}    
+
+.offers__item {
+    width: calc(100% / 3 - 17px);    
+}

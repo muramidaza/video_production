@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('./layout/base.css');
+@import url('./layout/normalize.css');
+
+/*Common*/
+
+@import url('./blocks/common/header.css');
+@import url('./blocks/common/menu.css');
+@import url('./blocks/common/contacts.css');
+@import url('./blocks/common/footer.css');
+@import url('./blocks/common/socials.css');
+
+/*Main*/
+
+@import url('./blocks/main_page/buttons.css');
+@import url('./blocks/main_page/wrapper_main.css');
+@import url('./blocks/main_page/hero.css');
+@import url('./blocks/main_page/greeting.css');
+@import url('./blocks/main_page/offers.css');
+@import url('./blocks/main_page/card-offer.css');
+@import url('./blocks/main_page/news.css');
+@import url('./blocks/main_page/card-news.css');
+@import url('./blocks/common/paginator.css');
+@import url('./blocks/main_page/promo.css');
+@import url('./blocks/main_page/promo__desc.css');
+
+/*Services*/
+
+@import url('./blocks/services_page/top-line.css');
+@import url('./blocks/services_page/beadcrumbs.css');
+@import url('./blocks/services_page/section-content.css');
+@import url('./blocks/services_page/services-content.css');
+@import url('./blocks/services_page/services-card.css');
+@import url('./blocks/services_page/buttons.css');
+@import url('./blocks/services_page/partners-section.css');
+@import url('./blocks/services_page/partners__img-containers.css');

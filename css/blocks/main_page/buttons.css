@@ -1,0 +1,33 @@
+.greeting__button {
+    background-color: #FF3D00;
+    color: white;
+    padding: 0 55px;
+}
+
+.greeting__button:hover {
+    background-color:#DA0100;
+    color: white;
+}
+
+.card-offer__button {
+    border: 1px solid  #FF5500;
+    background-color: white;
+    color: #FF5500;
+    padding: 0 55px;        
+}
+
+.card-offer__button:hover {
+    background-color: #FF5500;
+    color: white;    
+}
+
+.promo__button {
+    background-color: #FF5400;
+    color: white;
+    padding: 0 39px;
+}
+
+.promo__button:hover {
+    background-color: #FF3D00;
+    color: white;     
+}

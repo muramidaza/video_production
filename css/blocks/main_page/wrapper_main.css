@@ -1,0 +1,6 @@
+.wrapper--main {
+    background-image: url(../../../img/hero.png), url(../../../img/bottom-pic.png);
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    background-size: contain, contain;    
+}

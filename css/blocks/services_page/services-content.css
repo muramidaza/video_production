@@ -1,0 +1,10 @@
+.services-content {
+    padding-top: 95px;
+    margin-bottom: 57px;
+}
+
+.services__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

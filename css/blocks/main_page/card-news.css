@@ -1,0 +1,26 @@
+.card-news {
+    position: relative;
+}
+
+.card-news__picture {
+}
+
+.card-news__desc {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 253px 80px 0px 29px;
+    min-height: 120px;
+}
+
+.card-news__date {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+
+.card-news__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}

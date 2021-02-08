@@ -1,0 +1,53 @@
+.contacts {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 11px;
+}
+
+.contacts__phone {
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.contacts__info {
+}
+
+.contacts__info:hover + .contacts__hover{
+    display: block;
+} 
+
+.contacts__link {
+    font-size: 13px;
+    color: #FF3D00; 
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contacts__hover {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 5px;    
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    color: black;
+    font-style: normal;
+    line-height: 1;
+    padding: 15px 17px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.contacts__timetable {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.contacts__dinner {
+    font-size: 13px;
+    font-weight: 600;
+}

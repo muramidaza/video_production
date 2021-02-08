@@ -1,0 +1,21 @@
+.news {
+    margin-bottom: 140px;
+}
+
+.news__title {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.news__list {
+    margin-bottom: 42px;
+    display: flex;
+}
+
+.news__item {
+    flex: 1;
+    margin-right: 2%;
+}

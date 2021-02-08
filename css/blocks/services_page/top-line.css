@@ -1,0 +1,29 @@
+.top-line {
+    min-height: 416px;
+    background-image: url(../../../img/top-line.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow-x: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container__top-line {
+    padding: 22px 0 27px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+.header__top-line {
+    margin-bottom: 22px;
+}
+
+.top-line__page-title {
+    font-size: 72px;
+    font-weight: 800;
+    text-transform: uppercase; 
+}

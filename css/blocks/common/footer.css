@@ -1,0 +1,33 @@
+.footer-container__content {
+    border-top: 4px solid rgba(255, 255, 255, 0.1);
+    padding-top: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_col--left {
+    flex: 0 1 77.3%;
+}
+
+.footer_col--right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.contacts__text {
+    font-size: 11px;
+    font-style: normal;
+    line-height: 1;
+}
