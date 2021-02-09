@@ -16,13 +16,11 @@ body {
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     overflow-x: auto;
 }
 
 .container {
+    margin: 0 auto;
     width: 1142px;
 }
 
@@ -43,6 +41,10 @@ ul li {
 
 ul li:last-child {
     margin-right: 0;
+}
+
+img {
+    display: block;
 }
 
 .button {

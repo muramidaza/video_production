@@ -1,29 +1,24 @@
-.footer-container__content {
-    border-top: 4px solid rgba(255, 255, 255, 0.1);
-    padding-top: 40px;
+.container__footer {
+    padding-top: 50px;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
 }
 
-.footer_col {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.footer__col {
 }
 
-.footer_col--left {
-    flex: 0 1 77.3%;
+.footer__col--left {
 }
 
-.footer_col--right {
+.footer__col--right {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    flex: 1;
 }
 
 .contacts__text {

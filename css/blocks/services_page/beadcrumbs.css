@@ -4,14 +4,14 @@
     font-weight: 400;    
 }
 
-.breadcrumbs__link::after {
+.breadcrumbs__item::after {
     content: "/"
 }
 
-.breadcrumbs__link--activ {
+.breadcrumbs__link:hover, .breadcrumbs__link--activ {
     font-weight: 700;
 }
 
-.breadcrumbs__link--activ::after {
+.breadcrumbs__item--activ::after {
     content: "";
 }

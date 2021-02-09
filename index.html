@@ -71,21 +71,23 @@
 				</div>
 			</div>
 		</section>
-		<section class="content">
+		<main class="content">
 			<div class="container">
 				<section class="offers">
 					<ul class="offers__list">
 						<li class="offers__item card-offer">
-							<div class="card-offer__content">
+							<div class="card-offer__container-icon">
 								<img src="./img/tv.png" alt="advertisement" class="card-offer__icon">
+							</div>							
+							<div class="card-offer__content">
 								<div class="card-offer__title">
 									Реклама
 								</div>
 								<ul class="card-offer__features">
-									<li class="card-offer__features-countpeople">
+									<li class="card-offer__features-item">
 										От <span class="card-offer__features-bold">5</span> человек на проект
 									</li>
-									<li class="card-offer__features-longtime">
+									<li class="card-offer__features-item">
 										<span class="card-offer__features-bold">28</span> дней работы в среднем
 									</li>
 								</ul>
@@ -100,16 +102,19 @@
 							</div>
 						</li>
 						<li class="offers__item card-offer">
+							<div class="card-offer__container-icon">
+								<img src="./img/clapper.png" alt="advertisement" class="card-offer__icon">	
+							</div>							
 							<div class="card-offer__content">
-								<img src="./img/clapper.png" alt="advertisement" class="card-offer__icon">
+
 								<div class="card-offer__title">
 									Видео-клип
 								</div>
 								<ul class="card-offer__features">
-									<li class="card-offer__features-countpeople">
+									<li class="card-offer__features-item">
 										От <span class="card-offer__features-bold">7</span> человек на проект
 									</li>
-									<li class="card-offer__features-longtime">
+									<li class="card-offer__features-item">
 										<span class="card-offer__features-bold">21</span> дней работы в среднем
 									</li>
 								</ul>
@@ -124,16 +129,18 @@
 							</div>
 						</li>
 						<li class="offers__item card-offer">
-							<div class="card-offer__content">
+							<div class="card-offer__container-icon">
 								<img src="./img/film.png" alt="advertisement" class="card-offer__icon">
+							</div>							
+							<div class="card-offer__content">
 								<div class="card-offer__title">
 									Свадьба
 								</div>
 								<ul class="card-offer__features">
-									<li class="card-offer__features-countpeople">
+									<li class="card-offer__features-item">
 										От <span class="card-offer__features-bold">2</span> человек на проект
 									</li>
-									<li class="card-offer__features-longtime">
+									<li class="card-offer__features-item">
 										<span class="card-offer__features-bold">30</span> дней работы в среднем
 									</li>
 								</ul>
@@ -202,21 +209,28 @@
 					</div>
 				</section>
 				<section class="promo">
-					<div class="promo__desc">
-						<h2 class="promo__title">О нас</h2>
-						<p class="promo__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
-						<a href="#" class="promo__button button">Подробнее</a>
+					<div class="promo__desc promo-card">
+						<h2 class="promo-card__title">О нас</h2>
+						<p class="promo-card__text">Сайт рыбатекст поможет дизайнеру, верстальщику, 
+							вебмастеру сгенерировать несколько абзацев более менее осмысленного 
+							текста рыбы на русском языке, а начинающему оратору отточить навык 
+							публичных выступлений в домашних условиях.
+						</p>
+						<a href="#" class="promo-card__button button">Подробнее</a>
 					</div>
 				</section>
 			</div>
-		</section>
-		<section class="footer-container">
-			<div class="container footer-container__content">
+		</main>
+		<section class="section-footer">
+			<div class="container container__footer container__footer--main">
 				<footer class="footer">
-					<div class="footer_col footer_col--left">
+					<div class="footer__col footer__col--left">
 						<a href="/" class="logo">
 							<img src="./img/logo.png" alt="logo" class="logo__img">
 						</a>
+					</div>
+
+					<div class="footer__col footer__col--inner">	
 						<nav class="menu">
 							<ul class="menu__list">
 								<li class="menu__item">
@@ -236,6 +250,9 @@
 								</li>
 							</ul>
 						</nav>
+					</div>
+
+					<div class="footer__col footer__col--inner">
 						<div class="socials">
 							<ul class="socials__list">
 								<li class="socials__item">
@@ -253,7 +270,8 @@
 							</ul>
 						</div>
 					</div>
-					<div class="footer_col footer_col--right">
+					
+					<div class="footer__col footer__col--right">
 						<address class="contacts">
 							<div class="contacts__text">
 								Бесплатный звонок по России

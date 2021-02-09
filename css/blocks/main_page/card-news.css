@@ -7,9 +7,9 @@
 
 .card-news__desc {
     position: absolute;
-    top: 0px;
+    bottom: 0px;
     left: 0px;
-    padding: 253px 80px 0px 29px;
+    padding: 22px 30px;
     min-height: 120px;
 }
 

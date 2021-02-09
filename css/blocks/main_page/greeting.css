@@ -6,10 +6,6 @@
 
 .greeting {
     text-align: center;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .greeting__title {

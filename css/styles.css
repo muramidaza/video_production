@@ -23,6 +23,8 @@
 @import url('./blocks/common/paginator.css');
 @import url('./blocks/main_page/promo.css');
 @import url('./blocks/main_page/promo__desc.css');
+@import url('./blocks/main_page/promo-card.css');
+@import url('./blocks/main_page/footer-main.css');
 
 /*Services*/
 

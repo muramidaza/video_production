@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px; /*чтобы greeting не залез на хедер при увеличении текста*/
 }
 
 .header__col {
@@ -11,9 +10,7 @@
 }
 
 .header__col--right {
-    justify-content: flex-end;
 }
 
 .header__col--center {
-    justify-content: center;
 }
