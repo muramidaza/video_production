@@ -1,5 +1,4 @@
 .services__content {
-    padding-top: 95px;
     margin-bottom: 57px;
 }
 
@@ -14,4 +13,8 @@
 
 .services__item:last-child {
     margin-bottom: 0px;
+}
+
+.services-card__img {
+    max-height: 333px;
 }

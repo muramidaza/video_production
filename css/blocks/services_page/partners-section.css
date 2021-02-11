@@ -15,7 +15,7 @@
 .partners__list-img {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     align-content: space-around;
     min-height: 385px;

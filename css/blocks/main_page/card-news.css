@@ -24,3 +24,8 @@
     font-weight: 700;
     margin-bottom: 5px;
 }
+
+.card-news__text {
+    max-height: 40px;
+    overflow-y: hidden;
+}

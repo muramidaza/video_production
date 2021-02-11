@@ -1,5 +1,5 @@
 .container__footer {
-    padding-top: 50px;
+    padding-top: 38px;
 }
 
 .footer {
@@ -12,17 +12,26 @@
 .footer__col {
 }
 
+.footer__col--left, .footer__col--right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
 .footer__col--left {
+    width: 51.5%;
 }
 
 .footer__col--right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    width: 38.5%;
 }
 
 .contacts__text {
     font-size: 11px;
     font-style: normal;
     line-height: 1;
+}
+
+.logo--footer {
+    margin-right: 10%;
 }

@@ -5,7 +5,7 @@
     padding: 0 54px;
 }
 
-.services-card__button:hover {
+.services-card__link:hover .services-card__button {
     background-color:#FF5500;
     color: white;
 }

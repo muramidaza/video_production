@@ -1,4 +1,7 @@
 .services-card {
+}
+
+.services-card__link {
     display: flex;
 }
 

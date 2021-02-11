@@ -8,7 +8,7 @@
     content: "/"
 }
 
-.breadcrumbs__link:hover, .breadcrumbs__link--activ {
+.breadcrumbs__link--activ {
     font-weight: 700;
 }
 
