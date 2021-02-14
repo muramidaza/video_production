@@ -1,0 +1,12 @@
+.section-form-review {
+    background-color: #F4F5F5;
+    padding: 75px 0px;
+}
+
+.section-form-review__title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #202020;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}

@@ -1,0 +1,99 @@
+.form-review__row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form-review__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    padding: 22px 30px;
+    color: #1A1B1E;
+    font-size: 18px;
+}
+
+.form-review__input:last-child {
+    margin-right: 0;
+}
+
+.form-review__input::placeholder {
+    color: #666;
+}
+
+.form-review__input:focus {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-review__input--textarea {
+    min-height: 235px;
+}
+
+.form-review__controls {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-review__controls-title {
+    width: 38%;
+    font-size: 18px;
+    color: #1A1B1E;
+
+}
+
+.controls__item {
+    margin: 0 10px 10px 0;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background-color: #F2D4C9;
+}
+
+.form-review__buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+.form_review__button--reset, .form_review__button--submit {
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0px 43px;
+}
+
+.form_review__button--reset {
+    background-color: #8e8e8e;
+    margin-right: 10px;
+}
+
+.form_review__button--reset:hover {
+    background-color: #2b2b2b;
+}
+
+.form_review__button--submit {
+    background-color: #FF5500;
+    ;
+}
+
+.form_review__button--submit:hover {
+    background-color: #FF3D00;
+}
