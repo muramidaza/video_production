@@ -36,3 +36,10 @@
 @import url('./blocks/services_page/buttons.css');
 @import url('./blocks/services_page/section-partners.css');
 @import url('./blocks/services_page/partners__img-containers.css');
+
+/*Reviews*/
+
+@import url('./blocks/reviews-page/reviews.css');
+@import url('./blocks/reviews-page/card-review.css');
+@import url('./blocks/reviews-page/avater.css');
+@import url('./blocks/reviews-page/tag.css');
