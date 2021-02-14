@@ -1,0 +1,23 @@
+.section-separator {
+    background-image: url(../../../img/background/party.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #373737;
+    min-height: 363px;
+}
+
+.separator {
+    max-width: 553px;
+    padding: 118px 0;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.36;
+    color: #fff
+}
+
+.separator__title--red {
+    color: #ff5400;
+}

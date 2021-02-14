@@ -39,7 +39,9 @@
 
 /*Reviews*/
 
+@import url('./blocks/reviews-page/section-content.css');
 @import url('./blocks/reviews-page/reviews.css');
 @import url('./blocks/reviews-page/card-review.css');
 @import url('./blocks/reviews-page/avater.css');
 @import url('./blocks/reviews-page/tag.css');
+@import url('./blocks/reviews-page/section-separator.css');

@@ -1,14 +1,14 @@
 .card-review {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    padding: 50px 30px;
+    padding: 50px 25px 30px;
     background-color: #F4F5F5;
 }
 
 .card-review__header {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .card-review__photo {
@@ -16,12 +16,10 @@
 }
 
 .card-review__user-data {
-    display: flex;
-    align-items: center;
     font-size: 24px;
     font-weight: 700;
     line-height: 2;
-    margin-bottom: 11px;
+    padding-left: 20px;
 }
 
 .card-review__user-link::after {
@@ -49,17 +47,20 @@
 }
 
 .card-review__content {
-
+    padding: 0 5px;
 }
 
 .card-review__title {
-    font-size: 30;
+    font-size: 30px;
     font-weight: 700;
     color: #202020;
+    margin-bottom: 10px;
 }
 
 .card-review__text {
     color: #818181;
+    line-height: 1.7;
+    margin-bottom: 50px;
 }
 
 .card-review__date {
