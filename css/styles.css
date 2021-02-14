@@ -23,7 +23,7 @@
 @import url('./blocks/common/paginator.css');
 @import url('./blocks/main_page/promo.css');
 @import url('./blocks/main_page/promo__desc.css');
-@import url('./blocks/main_page/promo-card.css');
+@import url('./blocks/main_page/card-promo.css');
 @import url('./blocks/main_page/footer-main.css');
 
 /*Services*/
@@ -32,7 +32,7 @@
 @import url('./blocks/services_page/beadcrumbs.css');
 @import url('./blocks/services_page/section-content.css');
 @import url('./blocks/services_page/services-content.css');
-@import url('./blocks/services_page/services-card.css');
+@import url('./blocks/services_page/card-services.css');
 @import url('./blocks/services_page/buttons.css');
 @import url('./blocks/services_page/section-partners.css');
 @import url('./blocks/services_page/partners__img-containers.css');

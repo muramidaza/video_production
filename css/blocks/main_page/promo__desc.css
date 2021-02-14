@@ -6,6 +6,6 @@
 .promo::before {
     content: "";
     min-height: 505px;
-    background: url(../../../img/promo-card/cameraman.png) no-repeat;
+    background: url(../../../img/card-promo/cameraman.png) no-repeat;
     display: block;
 }

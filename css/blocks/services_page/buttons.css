@@ -1,11 +1,11 @@
-.services-card__button {
+.card-services__button {
     border: 2px solid #FF5500;
     background-color: #fff;
     color: #FF5500;
     padding: 0 54px;
 }
 
-.services-card__link:hover .services-card__button {
+.card-services__link:hover .card-services__button {
     background-color:#FF5500;
     color: #fff;
 }

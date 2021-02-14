@@ -21,13 +21,13 @@
     color: #fff;    
 }
 
-.promo-card__button {
+.card-promo__button {
     background-color: #FF5400;
     color: #fff;
     padding: 0 39px;
 }
 
-.promo-card__button:hover {
+.card-promo__button:hover {
     background-color: #FF3D00;
     color: #fff;     
 }

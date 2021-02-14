@@ -1,21 +1,21 @@
-.services-card {
+.card-services {
 }
 
-.services-card__link {
+.card-services__link {
     display: flex;
 }
 
-.services-card__content {
+.card-services__content {
     padding: 10px 0px 0px 58px;
 }
 
-.services-card__title {
+.card-services__title {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 25px;
 }
 
-.services-card__text {
+.card-services__text {
     line-height: 1.7;
     margin-bottom: 33px;
 }
