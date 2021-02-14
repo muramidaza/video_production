@@ -1,8 +1,10 @@
 .card-news {
     position: relative;
+    overflow-y: hidden;
 }
 
 .card-news__picture {
+    max-width: 100%;
 }
 
 .card-news__desc {
@@ -26,6 +28,5 @@
 }
 
 .card-news__text {
-    max-height: 40px;
-    overflow-y: hidden;
+
 }

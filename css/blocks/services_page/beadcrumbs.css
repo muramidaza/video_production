@@ -1,17 +1,23 @@
 .breadcrumbs__list {
     display: flex;
     font-size: 14px;
-    font-weight: 400;    
+    font-weight: 400; 
+    color:#9A9A9A;
 }
 
-.breadcrumbs__item::after {
-    content: "/"
+.breadcrumbs__link {
+    text-decoration: underline;
 }
 
-.breadcrumbs__link--activ {
+.breadcrumbs__item:last-child::after {
+    display: none;
+}
+
+.breadcrumbs__link--active {
     font-weight: 700;
 }
 
-.breadcrumbs__item--activ::after {
-    content: "";
+.breadcrumbs__item::after {
+    content: "/";
+    margin-right: 3px;
 }

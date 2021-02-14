@@ -1,11 +1,7 @@
 .hero {
-    padding-top: 18px;
-    margin-bottom: 235px;
+    padding: 18px 0 235px;
 }
 
-.hero__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 540px;
+.header__hero {
+    margin-bottom: 145px;
 }

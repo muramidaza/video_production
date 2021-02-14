@@ -1,14 +1,12 @@
 .promo__desc {
-    margin-bottom: 55px;
-    margin-left: -137px;
+    margin-top: -410px;
+    margin-left: 352px;
 }
 
 .promo::before {
     content: "";
     min-width: 490px;
     min-height: 505px;
-    align-self: center;
-    background: url(../../../img/cameraman.png) center center / cover no-repeat;
+    background: url(../../../img/promo-card/cameraman.png) no-repeat;
     display: block;
-    margin-bottom: 95px;
 }

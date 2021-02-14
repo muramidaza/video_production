@@ -32,5 +32,5 @@
 
 .pagination__link:hover, .pagination__link--active {
     background-color: #FF5500;
-    color: white;
+    color: #fff;
 }

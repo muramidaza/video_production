@@ -1,10 +1,9 @@
 .services__content {
-    margin-bottom: 57px;
+    padding-bottom: 57px;
 }
 
 .services__list {
-    display: flex;
-    flex-direction: column;
+
 }
 
 .services__item {
@@ -13,8 +12,4 @@
 
 .services__item:last-child {
     margin-bottom: 0px;
-}
-
-.services-card__img {
-    max-height: 333px;
 }

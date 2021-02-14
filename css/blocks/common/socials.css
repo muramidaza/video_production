@@ -13,33 +13,33 @@
 }
 
 .socials__link--telegram {
-    background-image: url(../../../img/telegram.png);
+    background-image: url(../../../img/socials/telegram.png);
 }
 
 .socials__link--telegram:hover {
-    background-image: url(../../../img/telegram-hover.png);
+    background-image: url(../../../img/socials/telegram-hover.png);
 }
 
 .socials__link--vk {
-    background-image: url(../../../img/vk.png);
+    background-image: url(../../../img/socials/vk.png);
 }
 
 .socials__link--vk:hover {
-    background-image: url(../../../img/vk-hover.png);
+    background-image: url(../../../img/socials/vk-hover.png);
 }
 
 .socials__link--facebook {
-    background-image: url(../../../img/f.png);
+    background-image: url(../../../img/socials/f.png);
 }
 
 .socials__link--facebook:hover {
-    background-image: url(../../../img/f-hover.png);
+    background-image: url(../../../img/socials/f-hover.png);
 }
 
 .socials__link--instagram {
-    background-image: url(../../../img/in.png);
+    background-image: url(../../../img/socials/in.png);
 }
 
 .socials__link--instagram:hover {
-    background-image: url(../../../img/in-hover.png);
+    background-image: url(../../../img/socials/in-hover.png);
 }

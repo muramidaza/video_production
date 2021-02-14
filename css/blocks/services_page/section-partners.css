@@ -1,0 +1,17 @@
+.section-partners {
+    background-color: #F4F5F5; 
+    padding: 90px 0 50px;
+}
+
+.partners__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 75px;
+}
+
+.partners__list-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
