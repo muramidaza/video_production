@@ -5,7 +5,6 @@
 
 .promo::before {
     content: "";
-    min-width: 490px;
     min-height: 505px;
     background: url(../../../img/promo-card/cameraman.png) no-repeat;
     display: block;
