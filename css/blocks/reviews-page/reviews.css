@@ -1,12 +1,12 @@
 .reviews__content {
-    margin-bottom: 55px;
+    margin-bottom: 45px;
 }
 
 .reviews__item {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .reviews__list {
     column-count: 2;
-    column-gap: 25px;
+    column-gap: 30px;
 }

@@ -2,7 +2,7 @@
     font-size: 13px;
     font-weight: 400;
     color: #303030;
-    padding: 8px 25px;
+    padding: 8px 17px;
     border-radius: 50px;
     background-color: #E7E7E7;
 }
@@ -10,4 +10,8 @@
 .tag--active {
     background-color: #F2D4C9;
     ;
+}
+
+.tag--card {
+    padding: 8px 27px;
 }

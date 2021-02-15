@@ -1,6 +1,6 @@
 .form-review__row {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .form-review__input {
@@ -33,7 +33,7 @@
 
 .form-review__controls {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 23px;
 }
 
 .controls {
@@ -46,7 +46,7 @@
     width: 38%;
     font-size: 18px;
     color: #1A1B1E;
-
+    padding-top: 10px;
 }
 
 .controls__item {
@@ -68,7 +68,6 @@
 .form-review__buttons {
     display: flex;
     justify-content: flex-end;
-    padding-top: 10px;
 }
 
 .form_review__button--reset, .form_review__button--submit {
