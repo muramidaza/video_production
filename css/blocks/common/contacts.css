@@ -3,19 +3,38 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-top: 11px;
+    padding-top: 19px;
 }
 
 .contacts__phone {
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 0.7;
 }
 
 .contacts__info {
+    position: relative;
 }
 
-.contacts__info:hover + .contacts__hover{
+.contacts__info::before {
     display: block;
+    position: absolute;
+    content: "";
+    display: block;
+    height: 20px;
+    left: 0;
+    right: 0;
+    top: 20px;
+}
+
+.contacts__dropdown {
+    right: -9999px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.contacts__info:hover .contacts__dropdown {
+    right: 5px;
+    opacity: 0.8;
 } 
 
 .contacts__link {
@@ -25,19 +44,30 @@
     text-decoration: underline;
 }
 
-.contacts__hover {
-    display: none;
+.contacts__dropdown {
     position: absolute;
-    top: 70px;
-    right: 5px;    
+    top: 35px;
+    width: 160px; 
     background-color: #FFFFFF;
-    opacity: 0.8;
     color: #000;
     font-style: normal;
     line-height: 1;
     padding: 15px 17px;
     border-radius: 5px;
     text-align: left;
+}
+
+.contacts__dropdown::before {
+    content: "";
+    display: block;
+    border: 15px solid transparent;
+    width: 0px;
+    height: 0px;
+    border-bottom-color: rgba(255, 255, 255, 1);
+
+    position: absolute;
+    top: -30px;
+    right: 30px;
 }
 
 .contacts__timetable {

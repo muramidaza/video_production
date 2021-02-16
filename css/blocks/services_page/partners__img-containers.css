@@ -8,6 +8,7 @@
 
 .partners__link {
     filter: grayscale();
+    transition: filter 0.5s linear;
 }
 
 .partners__link:hover {

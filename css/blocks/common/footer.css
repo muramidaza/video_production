@@ -30,8 +30,13 @@
     font-size: 11px;
     font-style: normal;
     line-height: 1;
+    margin-bottom: 15px;
 }
 
 .logo--footer {
     margin-right: 10%;
+}
+
+.contacts--footer {
+    padding-top: 5px;
 }

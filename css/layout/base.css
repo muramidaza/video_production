@@ -58,4 +58,5 @@ img {
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
+    transition: background-color 0.5s linear;
 }

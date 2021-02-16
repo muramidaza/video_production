@@ -30,6 +30,7 @@
 .card-review__user-link {
     color:#1A1B1E;
     text-decoration: none;
+    transition: color 0.5s linear;
 }
 
 .card-review__user-link:hover {

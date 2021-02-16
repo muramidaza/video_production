@@ -9,6 +9,7 @@
 
 .menu__link {
     font-size: 14px;
+    transition: color 0.5s linear;
 }
 
 .menu__link:hover, .menu__item--active {

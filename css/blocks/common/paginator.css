@@ -27,7 +27,8 @@
     line-height: 32px;   
     font-size: 16px;
     font-weight: 700; 
-    text-align: center;         
+    text-align: center;
+    transition: background-color 0.5s linear;        
 }
 
 .pagination__link:hover, .pagination__link--active {
