@@ -29,12 +29,13 @@
 .contacts__dropdown {
     right: -9999px;
     opacity: 0;
-    transition: opacity 0.5s;
+    
 }
 
 .contacts__info:hover .contacts__dropdown {
     right: 5px;
     opacity: 0.8;
+    transition: opacity 0.5s;
 } 
 
 .contacts__link {
