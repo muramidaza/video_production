@@ -1,6 +1,6 @@
 .section-separator {
     background-color: #373737;
-    min-height: 363px;
+    
 }
 
 .container-separator {
@@ -11,7 +11,10 @@
 
 .separator {
     max-width: 553px;
-    padding: 116px 0;
+    min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .separator__title {
