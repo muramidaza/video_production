@@ -1,7 +1,8 @@
 .socials__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 6px;    
+    margin-right: 6px;
+    flex-wrap: wrap;   
 }
 
 .socials__link {
@@ -10,7 +11,6 @@
     height: 36px;
     border-radius: 50%;
     background: url(../../../img/socials/social-icons.png) no-repeat;
-    transition: background-position 0.2s linear;
 }
 
 .socials__link--telegram {

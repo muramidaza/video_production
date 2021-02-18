@@ -8,7 +8,7 @@
 
 .partners__link {
     filter: grayscale();
-    transition: filter 0.5s linear;
+    transition: filter 0.3s linear;
 }
 
 .partners__link:hover {

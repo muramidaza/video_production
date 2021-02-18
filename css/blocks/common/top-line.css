@@ -7,16 +7,20 @@
 }
 
 .container__top-line {
-    padding: 16px 0; 
+    padding: 15px 0; 
 }
 
 .header__top-line {
-    margin-bottom: 105px;
+    margin-bottom: 108px;
 }
 
 .top-line__page-title {
     font-size: 72px;
     font-weight: 800;
     text-transform: uppercase; 
-    margin-bottom: 80px;
+    margin-bottom: 84px;
+}
+
+.top-line__breadcrumbs {
+    margin-bottom: 12px;
 }

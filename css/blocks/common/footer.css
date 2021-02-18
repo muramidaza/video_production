@@ -39,4 +39,5 @@
 
 .contacts--footer {
     padding-top: 5px;
+    flex-shrink: 0;
 }

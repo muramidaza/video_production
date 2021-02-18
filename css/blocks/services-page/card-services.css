@@ -5,6 +5,10 @@
     display: flex;
 }
 
+.card-services__img-container {
+    flex: 0 0 40%;
+}
+
 .card-services__content {
     padding: 10px 0px 0px 58px;
 }
@@ -13,6 +17,10 @@
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 25px;
+}
+
+.card-services__img {
+    width: 100%;
 }
 
 .card-services__text {

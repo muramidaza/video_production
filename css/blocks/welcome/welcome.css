@@ -1,4 +1,4 @@
-.welcom {
+.welcome {
     display: flex;
     position: absolute;
     top: 0;
@@ -22,11 +22,11 @@
     margin-bottom: 20px;
 }
 
-.welcom__button {
+.welcome__button {
     padding: 0 60px;
     background-color: #FF5500;
 }
 
-.welcom__button:hover {
+.welcome__button:hover {
     background-color: #FF3D00;
 }

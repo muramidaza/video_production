@@ -8,34 +8,35 @@
 @import url('./blocks/common/menu.css');
 @import url('./blocks/common/contacts.css');
 @import url('./blocks/common/footer.css');
+@import url('./blocks/common/section-content.css');
 @import url('./blocks/common/socials.css');
+@import url('./blocks/common/paginator.css');
+@import url('./blocks/common/top-line.css');
 
 /*Main*/
 
-@import url('./blocks/main_page/buttons.css');
-@import url('./blocks/main_page/wrapper_main.css');
-@import url('./blocks/main_page/hero.css');
-@import url('./blocks/main_page/greeting.css');
-@import url('./blocks/main_page/offers.css');
-@import url('./blocks/main_page/card-offer.css');
-@import url('./blocks/main_page/news.css');
-@import url('./blocks/main_page/card-news.css');
-@import url('./blocks/common/paginator.css');
-@import url('./blocks/main_page/promo.css');
-@import url('./blocks/main_page/promo__desc.css');
-@import url('./blocks/main_page/card-promo.css');
-@import url('./blocks/main_page/footer-main.css');
+@import url('./blocks/main-page/buttons.css');
+@import url('./blocks/main-page/wrapper_main.css');
+@import url('./blocks/main-page/hero.css');
+@import url('./blocks/main-page/greeting.css');
+@import url('./blocks/main-page/offers.css');
+@import url('./blocks/main-page/card-offer.css');
+@import url('./blocks/main-page/news.css');
+@import url('./blocks/main-page/card-news.css');
+@import url('./blocks/main-page/promo.css');
+@import url('./blocks/main-page/promo__desc.css');
+@import url('./blocks/main-page/card-promo.css');
+@import url('./blocks/main-page/footer-main.css');
 
 /*Services*/
 
-@import url('./blocks/services_page/top-line.css');
-@import url('./blocks/services_page/beadcrumbs.css');
-@import url('./blocks/services_page/section-content.css');
-@import url('./blocks/services_page/services-content.css');
-@import url('./blocks/services_page/card-services.css');
-@import url('./blocks/services_page/buttons.css');
-@import url('./blocks/services_page/section-partners.css');
-@import url('./blocks/services_page/partners__img-containers.css');
+@import url('./blocks/services-page/beadcrumbs.css');
+@import url('./blocks/services-page/section-content.css');
+@import url('./blocks/services-page/services-content.css');
+@import url('./blocks/services-page/card-services.css');
+@import url('./blocks/services-page/buttons.css');
+@import url('./blocks/services-page/section-partners.css');
+@import url('./blocks/services-page/partners__img-containers.css');
 
 /*Reviews*/
 
@@ -45,10 +46,10 @@
 @import url('./blocks/reviews-page/avater.css');
 @import url('./blocks/reviews-page/tag.css');
 @import url('./blocks/reviews-page/section-separator.css');
-@import url('./blocks/reviews-page/section-form-review.css');
+@import url('./blocks/reviews-page/section-form.css');
 @import url('./blocks/reviews-page/form-review.css');
 
-/* Welcom */
+/* welcome */
 
-@import url('./blocks/welcom/welcom.css');
-@import url('./blocks/welcom/welcom-animation.css');
+@import url('./blocks/welcome/welcome.css');
+@import url('./blocks/welcome/welcome-animation.css');

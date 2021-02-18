@@ -9,9 +9,9 @@
 
 .menu__link {
     font-size: 14px;
-    transition: color 0.5s linear;
+    transition: color 0.3s linear;
 }
 
-.menu__link:hover, .menu__item--active {
+.menu__link:hover, .menu__link--active {
     color: #FF3D00;
 }

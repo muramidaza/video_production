@@ -15,17 +15,6 @@
     position: relative;
 }
 
-.contacts__info::before {
-    display: block;
-    position: absolute;
-    content: "";
-    display: block;
-    height: 20px;
-    left: 0;
-    right: 0;
-    top: 20px;
-}
-
 .contacts__dropdown {
     right: -9999px;
     opacity: 0;
@@ -33,9 +22,9 @@
 }
 
 .contacts__info:hover .contacts__dropdown {
-    right: 5px;
+    right: 0;
     opacity: 0.8;
-    transition: opacity 0.5s;
+    transition: opacity 0.3s;
 } 
 
 .contacts__link {
@@ -69,6 +58,16 @@
     position: absolute;
     top: -30px;
     right: 30px;
+}
+
+.contacts__dropdown::after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 20px;
+    left: -40px;
+    right: 0;
+    top: -17px;
 }
 
 .contacts__timetable {

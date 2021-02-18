@@ -28,7 +28,7 @@
     font-size: 16px;
     font-weight: 700; 
     text-align: center;
-    transition: background-color 0.5s linear;        
+    transition: background-color 0.3s linear;        
 }
 
 .pagination__link:hover, .pagination__link--active {

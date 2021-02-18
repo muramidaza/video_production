@@ -1,14 +1,17 @@
 .section-separator {
-    background-image: url(../../../img/background/party.png);
-    background-repeat: no-repeat;
-    background-position: right;
     background-color: #373737;
     min-height: 363px;
 }
 
+.container-separator {
+    background-image: url(../../../img/background/party.png);
+    background-repeat: no-repeat;
+    background-position: right;    
+}
+
 .separator {
     max-width: 553px;
-    padding: 118px 0;
+    padding: 116px 0;
 }
 
 .separator__title {
